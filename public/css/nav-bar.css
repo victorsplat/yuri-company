@@ -1,0 +1,45 @@
+#logo {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+}
+
+.nav-container {
+    display: flex;
+    background-color: #DDD;
+    margin: 0;
+    list-style-type: none;
+    -webkit-box-shadow: -4px 5px 23px -8px rgb(24, 22, 24);
+    -moz-box-shadow: -4px 5px 23px -8px rgb(24, 22, 24);
+    box-shadow: -4px 5px 23px -8px rgb(24, 22, 24);
+    font-weight: 700;
+}
+
+.search {
+    flex: 1;
+}
+
+.search input {
+    border: none;
+    border-radius: 6px;
+    -webkit-box-shadow: -4px 5px 23px -8px rgba(46, 44, 46, 1);
+    -moz-box-shadow: -4px 5px 23px -8px rgba(46, 44, 46, 1);
+    box-shadow: -4px 5px 23px -8px rgba(46, 44, 46, 1);
+}
+
+.nav-container>li {
+    flex: 1;
+    margin: auto 40px;
+    font-size: 20pt;
+    text-align: right;
+}
+
+[Logout] {
+    color: red;
+}
+
+[link] {
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+}

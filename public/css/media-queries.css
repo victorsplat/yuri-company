@@ -1,0 +1,17 @@
+@media all and (max-width: 600px) {
+    .nav-container {
+        flex-wrap: wrap;
+    }
+    .nav-container>li {
+        flex-basis: 50%;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .nav-container>li {
+        flex-basis: 100%;
+    }
+    .nav-search {
+        order: 1;
+    }
+}
