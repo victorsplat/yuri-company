@@ -9,13 +9,6 @@ body {
 
 [title-font] {
     font-family: 'Supermercado One', cursive;
-}
-
-@media all and (max-width: 400px) {
-    .container>li {
-        flex-basis: 100%;
-    }
-    .search {
-        order: 1;
-    }
+    font-size: 26pt;
+    font-weight: bold;
 }

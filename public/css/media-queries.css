@@ -5,6 +5,9 @@
     .nav-container>li {
         flex-basis: 50%;
     }
+    .nav-container {
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 400px) {
@@ -13,5 +16,14 @@
     }
     .nav-search {
         order: 1;
+    }
+    .nav-container {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 400px) {
+    .nav-container {
+        width: 100%;
     }
 }
